@@ -16,7 +16,7 @@ include_once 'functions.php';
 
 <body>
     <h1 class="text-center">Password Generator</h1>
-    <p class="text-center fs-6">Contiene: 2 caratteri speciali, una lettera maiuscola e una serie di lettere randomiche che dimenticherai subito</p>
+    <p class="text-center fs-6">Contiene: 2 caratteri speciali, 2, numeri, una lettera maiuscola e una serie di lettere randomiche che dimenticherai subito</p>
     <div class="container">        <form action="" method="GET">
             <div class="mb-3">
                 <label class="form-label">Inserisci il numero di caratteri:</label>
@@ -27,13 +27,6 @@ include_once 'functions.php';
 
         <h4 class="mt-5">La tua password è: <span> <?php echo getRandomPass($passwordlength)?></span></h4>
     </div>
-
-
-
-
-
-
-
 </body>
 
 </html>
